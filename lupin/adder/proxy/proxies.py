@@ -44,3 +44,6 @@ class Proxies(ProxyAPI):
             proxy.busy = True
         lock.release()
         return proxy
+
+def run():
+    pass
